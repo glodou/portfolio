@@ -337,3 +337,27 @@ form button:hover {
   padding-top: 20px;
   opacity: 0.5;
 }
+
+@media (max-width: 680px){
+  header{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .home-container{
+    flex-direction: column;
+  }
+  .home-image img{
+    width: 250px;
+    height: 250px;
+  }
+  .tools-icons {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-col {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+}
