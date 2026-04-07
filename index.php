@@ -28,6 +28,38 @@
     </div>
 
 </div>
+
+<div class="tools-container">
+    <h2>TOOLS</h2>
+    <div class="tools-icons">
+        <img src="/portfolio/assets/icons/html-5.png" alt="">
+        <img src="/portfolio/assets/icons/js.png" alt="">
+        <img src="/portfolio/assets/icons/mysql.png" alt="">
+        <img src="/portfolio/assets/icons/php.png" alt="">
+        <img src="/portfolio/assets/icons/css-3.png" alt="">
+
+    </div>
+
+
+</div>
+
+
+
+
+<div class="contact-container">
+  <h2>Contact</h2>
+  <p>Feel free to reach out for collaborations or opportunities</p>
+  <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+
+
+
 <?php include_once('includes/footer.php'); ?>
 
 
