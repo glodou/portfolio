@@ -8,15 +8,17 @@
 </head>
 <body>
     <header>
-        <nav class="flex align-center space-between p-2 bg-ciel ">
-            <a href="#" class="logo font-s-30 font-w text-decoration-none text-black">My Portfolio</a>
-            <div class="p-2 m-2">
+       
+        <a href="#"  class="logo"> <img src="/portfolio/assets/logo/Frame 1.png" alt=""></a>
+            
+        <nav>
+                
                 <a class="text-decoration-none text-black m-2 font-s-20" href="#home">Home</a>
                 <a class="text-decoration-none text-black m-2 font-s-20" href="#about">About</a>
                 <a class="text-decoration-none text-black m-2 font-s-20" href="#skills">Skills</a>
                 <a class="text-decoration-none text-black m-2 font-s-20" href="#contact">Contact</a>
 
-            </div>
+           
                 
          
         </nav>

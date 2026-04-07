@@ -1,4 +1,5 @@
 body {
+  background-color: white;
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -84,7 +85,23 @@ body {
 .font-w {
   font-weight: bold;
 }
+.logo img{
 
+  width: auto;
+  height: 150px;
+
+}
+
+nav {
+  display: flex;
+  gap: 20px; 
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
 .p-1 {
   padding: 10px;
 }
@@ -114,6 +131,17 @@ body {
 }
 .m-5 {
   margin: 50px;
+}
+
+header{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;            
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+
 }
 
 .footer {
