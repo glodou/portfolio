@@ -143,9 +143,30 @@ header{
   box-sizing: border-box;
 
 }
+.home-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.home-text {
+  flex: 1;
+}
+
+.home-image {
+  flex: 1;
+  
+}
+
+.home-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
 
 .footer {
-  background-color: rgb(34, 34, 70);
+  background-color: rgb(66, 62, 64);
   color: #ffffff;
   padding: 50px 0;
   font-family: Arial, sans-serif;
@@ -198,7 +219,7 @@ header{
 .social-links a {
   flex-direction: row;
   margin-right: 10px;
-  color: #dac7c7;
+  color: #d4d0d0;
   padding: 8px 12px;
   border-radius: 50%;
   text-decoration: none;
